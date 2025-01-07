@@ -4,4 +4,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 project(Calculator)
 
-add_executable(Calculator main.c)
+add_executable(${PROJECT_NAME} main.c)
